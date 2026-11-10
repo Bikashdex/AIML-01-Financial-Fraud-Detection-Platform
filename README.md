@@ -134,7 +134,7 @@ card4 subgroups with small-sample caveats.
 ## 🎬 Demo Video
 
 A complete 6-minute end-to-end demonstration of the production MLOps pipeline is available here:  
-👉 **[Watch the AIML-01 Fraud Detection Demo Video](https://drive.google.com/file/d/18_7wiSiSdOaxHUAlI2IAksqW84c1fCmZ/view?usp=sharing)**
+👉 **[Watch the AIML-01 Fraud Detection Demo Video](https://drive.google.com/file/d/1n_mf_pzHygVhOrLPI6IOOZnPpjg6_nhz/view?usp=sharing)**
 
 *(The video covers the full lifecycle:)*
 * **Architecture & Codebase:** Walkthrough of the repository structure and the Mermaid architecture diagram.
