@@ -9,7 +9,8 @@ retraining.
 Cloud Deployments (Live):
 
 🔗 Live API: https://aiml-01-fraud-platform.onrender.com/docs
-Live Dashboard: https://aiml-01-fraud-platform.streamlit.app
+
+🔗 Live Dashboard: https://aiml-01-fraud-platform.streamlit.app
 
 ## 🏗️ Architecture
 
