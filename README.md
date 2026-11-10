@@ -130,5 +130,18 @@ serving (no training-serving skew). SHAP identifies top drivers
 (TransactionAmt, V70, V258); fairness audit reports per-group PR-AUC across
 card4 subgroups with small-sample caveats.
 
+
+## 🎬 Demo Video
+
+A complete 6-minute end-to-end demonstration of the production MLOps pipeline is available here:  
+👉 **[Watch the AIML-01 Fraud Detection Demo Video](https://drive.google.com/file/d/18_7wiSiSdOaxHUAlI2IAksqW84c1fCmZ/view?usp=sharing)**
+
+*(The video covers the full lifecycle:)*
+* **Architecture & Codebase:** Walkthrough of the repository structure and the Mermaid architecture diagram.
+* **Real-Time Streaming:** Kafka producer streaming live transactions, with FastAPI/Kubernetes pods scoring them in real-time using the hybrid XGBoost + GraphSAGE ensemble.
+* **Feature Store:** Proof of Feast online feature retrieval, guaranteeing zero training-serving skew.
+* **Automated Monitoring:** Running `drift_monitor.py` to calculate the Population Stability Index (PSI) and viewing the generated Evidently AI HTML drift report.
+* **Human-in-the-Loop:** Using the Streamlit Analyst Workbench to review high-risk alerts, submit feedback labels (`CONFIRMED_FRAUD` / `FALSE_POSITIVE`), and close the retraining feedback loop.
+* **Kubernetes Self-Healing:** Live demonstration of pod deletion and automatic respawning to guarantee high availability in production.
 ---
 *Bikash Kumar Singh · AI/ML Internship, Nexvia Technologies (NEX-INT-2026-0134)*
